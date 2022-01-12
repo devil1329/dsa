@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void nat(int n)
+void natrev(int n)
 {
 	if(n==0) return;
 	cout<<n<<" ";

@@ -17,3 +17,24 @@ public:
         return max_element;
     }
 };
+
+
+
+
+/*boyer-moore voting algorithm*/
+// class Solution {
+// public:
+//     int majorityElement(vector<int>& nums) 
+//     {
+//         int max=0,max_element;
+//         for(int i:nums)
+//         {
+//             if(max==0)
+//             {
+//                 max_element=i;
+//             }
+//             max+=(i==max_element)?1:-1;
+//         }
+//         return max_element;
+//     }
+// };
